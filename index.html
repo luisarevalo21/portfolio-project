@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/62945c2704.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="name-header">
+        <h1>Luis Arevalo</h1>
+      </div>
+
+      <nav>
+        <ul class="nav-items">
+          <!-- <a href="/about-me.html"> -->
+          <li class="nav-item"><a href="#about-me"> About Me</a></li>
+          <!-- </a> -->
+          <!-- <a href="/projects.html"> -->
+          <li><a href="#projects"> Projects</a></li></li>
+          <!-- </a> -->
+          <!-- <a href="/Skills.html"> -->
+          <li><a href="#skills">Skills</a></li></li>
+          <!-- </a> -->
+          <!-- <a href="/contact.html"> -->
+          <li><a href="./contact.html"> Contact</a></li></li>
+          <!-- </a> -->
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner">
+      <h2>Welcome</h2>
+    </div>
+
+    <div class="funny-action">
+      <div class="phrase-container">
+        <p id="change-text"></p>
+      </div>
+      <button class="phrase-button" id="random-gen">
+        Click for a new quote
+      </button>
+    </div>
+
+    <main>
+      <div class="container">
+        <section class="about-section" id="about-me">
+          <div class="description">
+            <h2>About Me</h2>
+            <p>
+              Hello my name is Luis Arevalo.
+              <br />
+              Graduate from San Jose State Univeristy with a Bachelors of
+              Software Engineering
+            </p>
+            <p>
+              Upon graduating I was in a bit of a rut of what I wanted to do.
+            </p>
+            <p>
+              However, after speaking to a mentor I reginted my determiantion to
+              get a Front End Developer role and become an engineer.
+            </p>
+            <p>
+              Hence why I enrolled in Codeacademy's Front-end Curriculum and
+              plan to complete the Full-Stack Developer route afterwards
+            </p>
+          </div>
+
+          <img
+            src="./assets/40.jpg"
+            alt="A photo of Luis Arevalo"
+            class="portrait"
+          />
+        </section>
+        <hr class="special-break" />
+
+        <section class="project-section" id="projects">
+          <h2>Projects</h2>
+          <p>Here are some of my notable projects.</p>
+          <p>Each project has a link and github a repo.</p>
+
+          <div class="card-container">
+            <div class="card">
+              <img alt="image of project goes here" class="portrait" src="./assets/reddit-min.png">
+              <p class="project-title" id="project-1-header">Reddit Minimal</p>
+
+              <div class="details-project" id="project-1">
+                <p>Reddit Clone, that fetches, subreddits, posts, and comments</p>
+                <p>Page link: <a href="https://spotify-jamming-project.surge.sh/" target="_blank">here </a></p>
+                <p>GitHub Repository: <a href="link to repo">here</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img alt="image of project goes here" class="portrait" src="./assets/jamming.png"/>
+              <p class="project-title" id="project-2-header">Jamming</p>
+              <div class="details-project" id="project-2">
+                <p>Web app that fetches Spotify Meta Data and adds to End users playlists</p>
+                <p>Page link: <a href="/link to site" target="_blank">here </a></p>
+                <p>GitHub Repository: <a href="link to repo">here</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img alt="image of project goes here" />
+              <p class="project-title" id="project-3-header">Project 3</p>
+              <div class="details-project" id="project-3">
+                <p>detials about the project</p>
+                <p>Page link: <a href="/link to site">here </a></p>
+                <p>GitHub Repository: <a href="link to repo">here</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- <p>one more text ext amybe?</p> -->
+          <hr class="special-break" />
+        </section>
+
+        <section class="skills-section" id="skills">
+          <h2>Skills</h2>
+          <p>
+            Here are the skills, I've acquired, mostly from Codeacademy,
+            however, Codeacademy has solidified my skills.
+          </p>
+
+          <div class="skills-container">
+            <div class="card skills-card">
+              <i class="fab fa-html5"></i>
+              <h3>HTML</h3>
+              <p>Level:</p>
+              <p>Intermediate</p>
+            </div>
+            <div class="card skills-card">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+              <p>Level:</p>
+              <p>Intermediate</p>
+            </div>
+
+            <div class="card skills-card">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript</h3>
+              <p>Level:</p>
+              <p>Intermediate</p>
+            </div>
+            <div class="card skills-card">
+              <i class="fab fa-react"></i>
+              <h3>React</h3>
+              <p>Level:</p>
+              <p>Intermediate</p>
+            </div>
+            <div class="card skills-card">
+              <i class="fab fa-git"></i>
+              <h3>Git</h3>
+              <p>Level:</p>
+              <p>Basic</p>
+            </div>
+            <div class="card skills-card">
+              <i class="fab fa-github"></i>
+              <h3>GitHub</h3>
+              <p>Level:</p>
+              <p>Basic</p>
+            </div>
+          </div>
+        </section>
+        <hr class="special-break" />
+      </div>
+    </main>
+
+    <footer>
+      <h2>My Personal Portfolio</h2>
+
+      <p>by Luis Arevalo</p>
+      <p>© <span id="year"></span></p>
+    </footer>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

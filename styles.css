@@ -1,0 +1,289 @@
+* {
+  font-family: "Domine", serif;
+  font-size: 16px;
+  /* color: whitesmoke; */
+}
+
+body {
+  /* display: grid; */
+  background-color: #070035;
+  /* border: 1px solid red; */
+  /* max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+header {
+  background-color: #070035;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.name-header {
+  margin-left: 10%;
+}
+.name-header h1 {
+  font-size: 1.5rem;
+}
+nav {
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: auto;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav-items li a {
+  color: coral;
+
+  font-size: 1.25rem;
+  margin: 10px;
+}
+.nav-items li:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#change-text {
+  display: none;
+}
+.special-break {
+  border-color: black;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-image: url("./assets/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner h2 {
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 3;
+  font-weight: bold;
+}
+
+.funny-action {
+  width: 100%;
+  background: #2e2cac;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* min-height: 200px; */
+}
+.phrase-container {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4%;
+  width: 50%;
+}
+.phrase-button {
+  background-color: green;
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 3%;
+}
+
+.container {
+  background-color: whitesmoke;
+  color: #070035;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 3%;
+  border: 1px solid red;
+  width: 75%;
+}
+.container h2 {
+  font-size: 2rem;
+  color: #070035;
+}
+
+.description {
+  width: 50%;
+}
+.description p {
+  color: #070035;
+}
+.about-section {
+  display: flex;
+}
+
+.project-section,
+.skills-section {
+  text-align: center;
+}
+
+.portrait {
+  width: 250px;
+
+  margin-left: auto;
+  border-radius: 5%;
+  flex-shrink: 0;
+}
+
+.portrait-contact {
+  width: 250px;
+
+  border-radius: 5%;
+  flex-shrink: 0;
+}
+
+.gmail {
+  width: 50px;
+}
+.about-me-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  margin-left: 15%;
+}
+.card-container,
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.card {
+  text-align: center;
+  background-color: #fbffde;
+  color: #070035;
+  min-height: 200px;
+  border-radius: 3%;
+  border: 1px solid #070035;
+  margin: 1em;
+}
+
+.project-title {
+  font-size: 1.25rem;
+}
+
+/* img {
+  width: 5%;
+  height: 5%;
+} */
+
+.details-project {
+  display: none;
+  border-top: 1px black solid;
+}
+.skills-card {
+  width: 30%;
+}
+.skills-card h3 {
+  font-style: bold;
+}
+.fab {
+  font-size: 2rem;
+  width: 4rem;
+}
+
+footer {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  margin: 0;
+}
+
+footer p {
+  margin: 1%;
+  padding: 0;
+}
+
+footer h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+/* }
+header {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+}
+.list li {
+  margin: 10px;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  text-align: left;
+}
+
+.about-me-information {
+}
+
+.portrait {
+  width: 250px;
+
+  border-radius: 5%;
+  flex-shrink: 0;
+}
+#container h2 {
+  font-weight: bold;
+}
+
+.skills-container {
+  padding: 2%;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.skills-container > * {
+  font-size: 2rem;
+  width: 4rem;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.project-description {
+  display: none;
+  cursor: pointer;
+}
+.project1 {
+  cursor: pointer;
+} */
