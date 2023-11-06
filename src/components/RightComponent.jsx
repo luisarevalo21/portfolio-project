@@ -6,17 +6,17 @@ const RightComponent = () => {
     <div className="right-header" id="about">
       <h3 className="about-header">About</h3>
       <p>
-        After graduating, I found myself unsure of which career path to pursue, leading me to fall into a bit of a
-        rabbit hole of applying to various jobs and facing multiple rejections. At one point, I felt so discouraged that
-        I contemplated giving up, and in a way, I did.
+        After graduation, I found myself uncertain about which career path to pursue, which led me into a cycle of
+        applying to various jobs and encountering multiple rejections. At one point, the continuous setbacks left me
+        feeling so disheartened that I contemplated giving up, and, in a sense, I did.
       </p>
       <p>
-        After securing a full-time job completely irrelevant to my degree, I had a conversation with a mentor that
-        reignited my dreams of pursuing a full-time front-end developer position.
+        Upon securing a full-time job unrelated to my degree, a conversation with a mentor reignited my ambition to
+        pursue a full-time position as a front-end developer.
       </p>
       <p>
-        When I&apos;m not learning, you can find me either biking around, walking my two German Shepherds/Huskies, or
-        spending time with my family.
+        When I&apos;m not engaged in learning, you can often find me either biking around, walking my two German
+        Shepherds/Huskies, or enjoying quality time with my family.
       </p>
       {/* <Experience />
       <Projects /> */}

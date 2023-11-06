@@ -9,7 +9,10 @@ const LeftComponent = () => {
         <h1>Luis Arevalo</h1>
         <h3>Aspiring Front End Developer / Full Stack Developer</h3>
 
-        <p>I build SPA, that are rich, responsive, and digtial experiences for the web.</p>
+        <p>
+          I specialize in developing Single Page Applications (SPAs) that offer rich, responsive, and immersive digital
+          experiences tailored for the web.
+        </p>
 
         <img src={headShot} alt="headshot" className="headshot" width="200px" />
 
