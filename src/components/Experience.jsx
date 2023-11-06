@@ -9,8 +9,7 @@ const Experience = () => {
       title: "Digital Access Instructor",
       company: "The Unity Council",
       description:
-        "I am currently the instructor for digital literacy, responsible for developing course materials and providing instruction on digital literacy to clients and staff members",
-      // tools: ["React", "JavaScript", "NodeJS", "Express"],
+        "I currently hold the role of a digital literacy instructor, where my responsibilities include crafting course materials and delivering comprehensive instruction on digital literacy to both clients and staff members.", // tools: ["React", "JavaScript", "NodeJS", "Express"],
     },
   ]);
 
